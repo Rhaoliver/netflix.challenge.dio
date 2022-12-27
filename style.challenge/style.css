@@ -23,6 +23,8 @@ header .container {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 10px;
 }
 
 header .logo {
@@ -43,16 +45,17 @@ header nav a:hover {
     color: #fff;
 }
 
-/*filme principal*/
+/*principal film*/
 .principal-film {
     font-size: 18px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/netflix.challenge.dio/img.challenge/capa-jogoimit.jpg');
-    height: 400px;
+    height: 600px;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin: 20px;
 }
 
 .principal-film .description {
@@ -94,6 +97,7 @@ header nav a:hover {
     width: 40%;
 }
 
+/*popular film*/
 .box-film {
     height: 100%;
     width: 100%;
@@ -102,4 +106,13 @@ header nav a:hover {
 
 .caurousel-film {
     margin-top: 5px;
+    margin: 20px;
+}
+
+.caurousel-film h2 {
+    font-size: 28px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
